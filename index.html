@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Portfólio pessoal de estudante de Informática.">
+<title>Portfólio | Seu Nome</title><link rel="stylesheet" href="css/style.css"><script src="js/script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<header class="topbar" id="topo">
+<a class="brand" href="#inicio">meu portfólio.</a>
+<nav aria-label="Navegação principal"><button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links">MENU ☰</button>
+<ul id="nav-links"><li><a href="#sobre">SOBRE</a></li><li><a href="#habilidades">HABILIDADES</a></li><li><a href="#projetos">PROJETOS</a></li><li><a href="#contato">CONTATO</a></li></ul></nav>
+<button id="theme-toggle" class="theme-toggle" aria-label="Ativar modo escuro">◐</button>
+</header>
+<main id="conteudo">
+<section class="cover" id="inicio">
+<div class="stripes" aria-hidden="true"></div>
+<p class="kicker">PORTFÓLIO DIGITAL<br>APRESENTAÇÃO PESSOAL</p>
+<p class="location">PORTFÓLIO DIGITAL · 2026</p>
+<div class="hero-layout">
+  <div class="hero-copy">
+    <h2 class="eyebrow">BEM-VINDO(A) AO MEU</h2>
+    <h1>PORTIFÓLIO<br></h1>
+    <p class="hero-subtitle">Me chamo Ana Clara Soares e sou estudante de Informática e desenvolvedora em formação pelo Senac MedioTec.</p>
+    <p class="hero-description">Estou aprendendo a transformar ideias em soluções digitais, desenvolvendo projetos e ampliando meus conhecimentos em tecnologia.</p>
+    <a class="hero-button" href="#projetos">Conheça meus projetos <span aria-hidden="true">↓</span></a>
+  </div>
+  <aside class="hero-visual">
+    <div class="portrait">
+      <img id="profile-photo" src="img/minha-foto.png" alt="Foto de apresentação de Ana Clara Soares">
+    </div>
+    <a class="instagram-hero" href="https://www.instagram.com/clarasoareesz/" target="_blank" rel="noopener noreferrer" aria-label="Abrir perfil do Instagram em nova aba">@clarasoareesz</a>
+    
+  </aside>
+</div>
+<div class="cover-bottom"><a href="#projetos">VER PROJETOS ↓</a></div>
+</section>
+<section class="section" id="sobre"><p class="index">01 / QUEM SOU</p><div class="content">><h2>Entre ideias,<br><em>códigos e descobertas.</em></h2><p>Sou estudante do curso técnico integrado de Informática e tenho interesse em desenvolvimento de sistemas e criação de sites. Durante o curso, venho praticando lógica de programação, organização de dados e desenvolvimento web.</p><p>Meu objetivo é conquistar uma oportunidade de estágio em tecnologia, colaborar com uma equipe e continuar aprendendo por meio de projetos reais.</p></div><div class="stamp">APRENDENDO<br>SEMPRE ✳</div></section>
+<section class="section skills" id="habilidades"><p class="index">02 / FERRAMENTAS</p><div class="content"><p class="eyebrow">CAIXA DE FERRAMENTAS</p><h2>O que estou<br><em>aprendendo.</em></h2><p>Edite esta lista para representar as tecnologias que você realmente conhece ou está aprendendo.</p><div class="skills-grid">
+<article><small>01</small><h3>HTML</h3><p>Estrutura e semântica para páginas web.</p></article><article><small>02</small><h3>CSS</h3><p>Estilo, layouts e responsividade.</p></article><article><small>03</small><h3>JavaScript</h3><p>Interações e comportamento da página.</p></article><article><small>04</small><h3>Python</h3><p>Lógica e desenvolvimento de sistemas.</p></article><article><small>05</small><h3>SQL</h3><p>Consultas e organização de dados.</p></article><article><small>06</small><h3>Flask</h3><p>Aplicações web com Python.</p></article></div></div></section>
+<section class="section" id="projetos"><p class="index">03 / TRABALHOS</p><div class="content"><p class="eyebrow">FEITO POR MIM, EM FORMAÇÃO</p><h2>Projetos que contam<br><em>minha jornada.</em></h2><p>Exemplos baseados em atividades escolares. Mantenha apenas os projetos que você realmente desenvolveu e personalize as descrições.</p><div class="projects">
+<article><small>PROJETO 01 · PYTHON</small><div class="art">↗</div><h3>Sistema de controle de doações</h3><p>Registro de doações e organização dos itens recebidos.</p><label>Python · Lógica</label></article>
+<article><small>PROJETO 02 · BANCO DE DADOS</small><div class="art art2">▤</div><h3>Sistema de biblioteca</h3><p>Organização de livros, autores, leitores e empréstimos.</p><label>SQLite · SQL</label></article>
+<article><small>PROJETO 03 · WEB</small><div class="art art3">&lt;/&gt;</div><h3>Sistema de gestão escolar</h3><p>Aplicação web para consultar e organizar dados escolares.</p><label>Flask · SQLite</label></article>
+</div></div></section>
+<section class="section contact" id="contato"><p class="index">04 / CONTATO</p><div class="content contact-grid"><div><p class="eyebrow">TEM UMA IDEIA?</p><h2>Vamos criar<br><em>algo legal.</em></h2><p>O formulário demonstra a validação no navegador. Ele não envia nem armazena as informações.</p><a class="social" href="https://www.instagram.com/clarasoareesz/" target="_blank" rel="noopener noreferrer">◎Instagram·@clarasoareesz↗</a></div>
+<form id="contact-form"><label for="name">Seu nome</label><input id="name" name="name" required minlength="2" autocomplete="name"><label for="email">Seu e-mail</label><input id="email" name="email" type="email" required autocomplete="email"><label for="message">Mensagem</label><textarea id="message" name="message" rows="4" required minlength="10"></textarea><label class="consent"><input type="checkbox" required> Concordo com o uso dos dados apenas para responder a esta mensagem.</label><button type="submit">VALIDAR MENSAGEM ↗</button><p id="feedback" role="status" aria-live="polite"></p></form></div></section>
+</main><footer><p>© <span id="year"></span> <span id="footer-name">Seu Nome</span> · FEITO COM CURIOSIDADE.</p><a href="#topo">VOLTAR AO TOPO ↑</a></footer>
+</body></html>
